@@ -11,10 +11,11 @@ void main() {
           appBar: AppBar(
             title: const Text('Hey! I am rich'),
           ),
-          body: Center(
+          body: const Center(
 
             child: Image(
-                image: NetworkImage(("https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg?w=1575"),)
+                image: AssetImage("images/diamond.png")
+                // image: NetworkImage(("https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg?w=1575"),)
             )
 
           ),
