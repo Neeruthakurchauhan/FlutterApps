@@ -9,7 +9,7 @@ void main() {
         ),
         home: Scaffold(
           appBar: AppBar(
-            title: const Text('Hey! I am rich'),
+            title: const Text('Hey! I am rich', textAlign: TextAlign.center,),
           ),
           body: const Center(
 
